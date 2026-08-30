@@ -70,6 +70,13 @@ If running in Google Colab, only one extra install is needed (everything else is
 
 ## 🚀 Usage
 
+A note on the two .py files
+
+This repo includes both the original Colab export (sms_spam_detection_colab.py) and a standalone version (sms_spam_detection.py) adapted to run locally outside a notebook environment — fixed deprecated matplotlib syntax (tick_labels instead of labels), removed the Colab-only !pip install cell and google.colab.files download calls, since these only work inside Google Colab's environment.
+
+sms_spam_detection_colab.py — run this in Google Colab (or any Jupyter notebook), exactly as originally developed.
+sms_spam_detection.py — run this locally (e.g. in VS Code or any terminal) with python sms_spam_detection.py. Install dependencies first with pip install ucimlrepo joblib pandas numpy matplotlib scikit-learn requests. Each chart opens in its own window and must be closed to let the script continue to the next step.
+
 ### Run the full notebook
 Open `SMS_Spam_Detection.ipynb` in Google Colab or Jupyter and run all cells top to bottom — each phase builds on the previous one's output.
 
