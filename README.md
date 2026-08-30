@@ -1,8 +1,5 @@
 # Probabilistic SMS Spam Detection
 
-**Author:** K Barath | B.Tech Computer Science Engineering
-**Course:** BAMAT207 – Probability and Statistics
-
 An SMS spam classifier that bridges **probability theory** with a practical **machine learning pipeline** — built as part of the BAMAT207 (Probability and Statistics) coursework. The project doesn't just classify messages as Spam or Ham; it mathematically demonstrates *why* the classification works, using prior probability, conditional probability, Bayes' Theorem, and random variable analysis, all verified against a real trained model.
 
 ---
